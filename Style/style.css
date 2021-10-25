@@ -10,6 +10,7 @@ width: 1024px;
 height: 720px;
 
 background: conic-gradient(from 180deg at 50% 50%, rgba(15, 15, 15, 0) 0deg, #0F0F0F 88.12deg, rgba(15, 15, 15, 0) 360deg), conic-gradient(from 180deg at 50% 50%, rgba(30, 214, 49, 0) 0deg, #1ED631 305.62deg, rgba(30, 214, 49, 0) 360deg);
+font-family: 'Raleway', sans-serif;
 }
 
 
@@ -60,7 +61,7 @@ background: conic-gradient(from 180deg at 50% 50%, rgba(15, 15, 15, 0) 0deg, #0F
     margin: 2%;
     font-size: 25px;
     background: #FAFF12;
-    border-radius: 5px;
+    border-radius: 30px;
 
 }
 

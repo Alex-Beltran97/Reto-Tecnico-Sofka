@@ -34,17 +34,17 @@
 
 // console.log(array.length);
 
-const contenedor = document.querySelector(".contenedor");
+// const contenedor = document.querySelector(".contenedor");
 
-const item = document.createElement("button");
+// const item = document.createElement("button");
 
-const textoItem = document.createTextNode("Holo");
+// const textoItem = document.createTextNode("Holo");
 
-item.appendChild(textoItem);
+// item.appendChild(textoItem);
 
-contenedor.appendChild(item)
+// contenedor.appendChild(item)
 
-console.log(item)
+// console.log(item)
 
 
 
@@ -57,3 +57,7 @@ console.log(item)
 
 
 // console.log(respuesta());
+
+
+
+
