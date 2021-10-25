@@ -59,5 +59,23 @@
 // console.log(respuesta());
 
 
+// const btnAumentar = document.querySelector(".btn-info");
+// const btnDisminuir = document.querySelector(".btn-danger");
 
+// const span = document.getElementById("span")
+
+// span.innerHTML = localStorage.getItem("puntaje");
+
+// btnAumentar.addEventListener("click", ()=>{
+//     console.log("me diste click,aumentar")
+//     span.textContent++;
+//     localStorage.setItem("Puntaje",span.textContent)
+// })
+// btnDisminuir.addEventListener("click", ()=>{
+//     console.log("me diste click,aumentar")
+//     span.textContent--;
+//     localStorage.setItem("Puntaje",span.textContent)
+// })
+
+// console.log(span.textContent)
 

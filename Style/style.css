@@ -16,9 +16,9 @@ font-family: 'Raleway', sans-serif;
 
 #question{
     width: 750.57px;
-    height: 20%;
+    height: 22%;
     left: 450px;
-    top: 15px;
+    top: 150px;
     
     background: #000000;
     border: 12px solid #E4F70A;
@@ -29,7 +29,7 @@ font-family: 'Raleway', sans-serif;
     font-family: Raleway;
     font-style: normal;
     font-weight:bolder;
-    font-size: 30px;
+    font-size: 41px;
     line-height: 167.19%;
     /* or 33px */
 
@@ -38,10 +38,10 @@ font-family: 'Raleway', sans-serif;
     color: #1ED631;
 }
 
-.pieDePagina{
-    margin-left: 60%;
-    margin-top: 60%;
+.encabezado{
+    margin-right: 60%;
     text-align: center;
+    align-items: center;
 }
 
 #choices{
@@ -50,7 +50,7 @@ font-family: 'Raleway', sans-serif;
     width: 110%;
     height: 50%;
     left: 22%;
-    top: 40%;
+    top: 50%;
     text-align: center;
     align-items: center;
 }   
@@ -59,7 +59,8 @@ font-family: 'Raleway', sans-serif;
 .button{
     padding: 1.5% 9%;
     margin: 2%;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: bold;
     background: #FAFF12;
     border-radius: 30px;
 

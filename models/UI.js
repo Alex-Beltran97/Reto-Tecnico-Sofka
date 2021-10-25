@@ -12,6 +12,8 @@ export class UI {
             button.innerHTML = choices[i];
             choicesContainer.appendChild(button)
             button.className = "button";
+
+            
         }
         
 
