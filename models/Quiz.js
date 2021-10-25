@@ -1,6 +1,6 @@
 export class Quiz{
 
-    questionIndex = 1;
+    questionIndex = 0;
     score = 0;
 
     constructor(questions){
@@ -14,7 +14,7 @@ export class Quiz{
     }
 
     guess(answer){
-
+        alert(answer);
         if (this.getQuestionIndex().correctAnswer(answer)){
             this.score++
         }
