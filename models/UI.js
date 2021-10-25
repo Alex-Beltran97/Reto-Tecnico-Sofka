@@ -7,6 +7,7 @@ export class UI {
     }
     showChoices(choices,callBack){
         const choicesContainer = document.getElementById("choices");
+        choicesContainer.innerHTML = " ";
         for (let i = 0; i < choices.length; i++){
             const button = document.createElement("button");
             button.innerHTML = choices[i];
@@ -16,9 +17,16 @@ export class UI {
             
         }
         
-
-        // console.log(choicesContainer);
     }
+    showScores(score){
+        alert(`tu puntaje es de: ${score}`);
+    }
+    showProgress(currentIndex, total){
+        const element = document.getElementById("progress");
+        element.innerHTML = `Question ${currentIndex} of ${total}`
+
+    }
+
 }
 
 

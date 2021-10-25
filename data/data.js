@@ -2,7 +2,7 @@ export const data = [
   {
     question: "¿cuanto es 1+1?",
     choices: ["7", "5", "10", "2"],
-    answer: 2,
+    answer: "2",
   },
   {
     question: "¿de que color es el caballo blanco de simon bolivar?",

@@ -9,16 +9,18 @@ export class Quiz{
     getQuestionIndex(){
         return this.questions[this.questionIndex];
     }
-    isEnded(){
-        return this.question.length === this.questionIndex
+    final(){
+        if(this.questionIndex > 2){
+            return true;
+        } 
     }
-
+    
     guess(answer){
-        alert(answer);
+        console.log(answer);
         if (this.getQuestionIndex().correctAnswer(answer)){
             this.score++
         }
-
+        
         this.questionIndex++
     }
 }

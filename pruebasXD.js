@@ -79,3 +79,7 @@
 
 // console.log(span.textContent)
 
+
+let array = [1,2,3];
+
+array.length
