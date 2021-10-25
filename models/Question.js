@@ -5,7 +5,14 @@ export class Question {
         this.answer = answer;
     }
     correctAnswer(choices){
-        return choices === this.answer;
+        if (choices === this.answer){
+            return true;
+        }else{
+            const choicesContainer = document.getElementById("choices").style.visibility = "hidden";
+            alert("falso");
+            alert("Al responder erradamente pierdes el dinero acumulado hasta el momento y finaliza el juego.");
+            location.href = "../fin.html"
+        }
     }
 }
 

@@ -14,4 +14,21 @@ export const data = [
     choices: ["todos","2 peces","1 pez","ninguno, los peces no se ahogan en el agua"],
     answer: "ninguno, los peces no se ahogan en el agua",
   },
+  {
+    question: "¿Cuántos minutos tiene una hora?",
+    choices: ["60", "6", "120", "50"],
+    answer: "60",
+  },
+  {
+    question: "¿Cuántas patas tiene una araña?",
+    choices: ["4", "2", "8", "10"],
+    answer: "8",
+  },
+  {
+    question: "¿Cuál es el río más caudaloso del mundo?",
+    choices: ["Volga","magdalena","mississippi","Amazonas"],
+    answer: "Amazonas",
+  }
 ];
+
+

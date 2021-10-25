@@ -1,8 +1,7 @@
 export class Quiz{
 
     questionIndex = 0;
-    score = 0;
-
+    score = 0 ;
     constructor(questions){
         this.questions = questions;
     }
@@ -10,7 +9,8 @@ export class Quiz{
         return this.questions[this.questionIndex];
     }
     final(){
-        if(this.questionIndex > 2){
+        if(this.questionIndex > 5){
+            location.href = "fin.html";
             return true;
         } 
     }
@@ -23,4 +23,5 @@ export class Quiz{
         
         this.questionIndex++
     }
+    
 }
