@@ -11,7 +11,7 @@ export class Question {
             const choicesContainer = document.getElementById("choices").style.visibility = "hidden";
             alert("falso");
             alert("Al responder erradamente pierdes el dinero acumulado hasta el momento y finaliza el juego.");
-            location.href = "../fin.html"
+            location.href = "../4.fin.html"
         }
     }
 }

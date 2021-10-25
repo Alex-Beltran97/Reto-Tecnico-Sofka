@@ -34,7 +34,7 @@ function rendirse(quiz,ui){
                                 tu total es de:  $ <b style="font-size: 60px"> ${quiz.score}</b>000 dolares</p>
                                 
                                 
-                                <a href="fin.html">
+                                <a href="4.fin.html">
         <img src="Style/Imagen1.png" alt="" width="250px" >
     </a>`;
    
