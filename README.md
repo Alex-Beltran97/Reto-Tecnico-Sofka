@@ -7,3 +7,4 @@ https://alex-beltran97.github.io/Reto-Tecnico-Sofka/
 
 
 dejo adjunto el repositorio subido a otro servidor diferente
+https://tefatututu.000webhostapp.com/
