@@ -1,6 +1,6 @@
 export class Quiz{
 
-    questionIndex = 1;
+    questionIndex = 0;
     score = 0;
 
     constructor(questions){
