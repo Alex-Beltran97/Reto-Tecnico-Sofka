@@ -9,7 +9,8 @@ item.className = "gracias";
 
 const contenedor1 = document.querySelector(".estadistica");
 const item1 = document.createElement("h2");
-const textoItem1 = document.createTextNode(`Úlitmo puntaje registrado: ${localStorage.getItem("score")}`);
+const textoItem1 = document.createTextNode(`Úlitma persona registrada: ${localStorage.getItem("userName")} <br/><br/>
+                                            Úlitmo puntaje registrado: $${localStorage.getItem("score")}000 Dolares`);
 item1.appendChild(textoItem1);
 contenedor1.appendChild(item1);
 

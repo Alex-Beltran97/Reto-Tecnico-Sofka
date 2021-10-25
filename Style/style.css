@@ -30,7 +30,7 @@ font-family: 'Raleway', sans-serif;
     font-family: Raleway;
     font-style: normal;
     font-weight:bolder;
-    font-size: 41px;
+    font-size: 35px;
     line-height: 167.19%;
     /* or 33px */
 
@@ -71,6 +71,22 @@ font-family: 'Raleway', sans-serif;
     cursor: pointer;
     color:#FAFF12;
     background: black;
+}
+.rendirse{
+    padding: 1.5% 9%;
+    margin: 2%;
+    font-size: 35px;
+    font-weight: bold;
+    background: #ffffff;
+    border-radius: 30px;
+    color:rgb(204, 57, 57)
+
+}
+
+.rendirse:hover{
+    cursor: pointer;
+    color:white;
+    background: rgb(204, 57, 57)
 }
 
 #progress{

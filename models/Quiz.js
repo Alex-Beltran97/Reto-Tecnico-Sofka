@@ -9,7 +9,7 @@ export class Quiz{
         return this.questions[this.questionIndex];
     }
     final(){
-        if(this.questionIndex > 5){
+        if(this.questionIndex > 24){
             location.href = "fin.html";
             return true;
         } 

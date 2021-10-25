@@ -24,12 +24,22 @@ function rendirse(quiz,ui){
     newElement.appendChild(botonRendirse);
     botonRendirse.className = "rendirse";
 
+    
+
+    
     botonRendirse.addEventListener("click", ()=>{
         const choicesContainer = document.getElementById("choices").style.visibility = "hidden";
         const questionTitle = document.getElementById("question");
         questionTitle.innerHTML = `<p style="font-size: 25px"><b>Haz</b> decidio retirarte dignamente con lo que haz acumulado hasta ahora.
-                                tu total es de:  $ <b style="font-size: 60px"> ${quiz.score}</b> dolares</p>`;
-       
+                                tu total es de:  $ <b style="font-size: 60px"> ${quiz.score}</b>000 dolares</p>
+                                
+                                
+                                <a href="fin.html">
+        <img src="Style/Imagen1.png" alt="" width="250px" >
+    </a>`;
+   
+   
+
     let score = quiz.score;
     localStorage.setItem("score",score);
     })
