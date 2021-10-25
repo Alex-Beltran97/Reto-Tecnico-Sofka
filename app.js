@@ -19,10 +19,15 @@ const renderPage = (quiz,ui) => {
 function main(){
     const quiz = new Quiz(questions);
     const ui = new UI();
-    
+    const newElement = document.querySelector(".quiz");
+    const botonRendirse = document.createElement("button");
+    const textBoton = document.createTextNode("Rendirse");
+    botonRendirse.appendChild(textBoton);
+    newElement.appendChild(botonRendirse);
+    botonRendirse.className = "rendirse";
+
     renderPage(quiz,ui);
 }
 
 main();
 
-//jajajaj
