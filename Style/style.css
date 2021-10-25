@@ -15,7 +15,7 @@ background: conic-gradient(from 180deg at 50% 50%, rgba(15, 15, 15, 0) 0deg, #0F
 
 #question{
     width: 750.57px;
-    height: 214.19px;
+    height: 20%;
     left: 450px;
     top: 15px;
     
@@ -27,14 +27,14 @@ background: conic-gradient(from 180deg at 50% 50%, rgba(15, 15, 15, 0) 0deg, #0F
 
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
+    font-weight:bolder;
+    font-size: 30px;
     line-height: 167.19%;
     /* or 33px */
 
     text-align: center;
 
-    color: #FAFF12;
+    color: #1ED631;
 }
 
 .pieDePagina{
@@ -43,85 +43,28 @@ background: conic-gradient(from 180deg at 50% 50%, rgba(15, 15, 15, 0) 0deg, #0F
     text-align: center;
 }
 
-
-.button1{
+#choices{
+    box-sizing: border-box;   
     position: absolute;
-    width: 400px;
-    height: 106px;
-    left: 35%;
-    top: 318px;
-
-    font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 40.69%;
-/* or 20px */
+    width: 110%;
+    height: 50%;
+    left: 22%;
+    top: 40%;
+    text-align: center;
+    align-items: center;
+}   
 
 
+.button{
+    padding: 1.5% 9%;
+    margin: 2%;
+    font-size: 25px;
     background: #FAFF12;
-    border-radius: 100px;
-
-}
-.button2{
-    position: absolute;
-    width: 400px;
-    height: 106px;
-    left: 85%;
-    top: 318px;
-
-    font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 40.69%;
-/* or 20px */
-
-
-    background: #FAFF12;
-    border-radius: 100px;
-
-}
-.button3{
-    position: absolute;
-    width: 350px;
-    height: 106px;
-    left: 450px;
-    top: 464px;
-
-    font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 40.69%;
-/* or 20px */
-
-
-    background: #FAFF12;
-    border-radius: 100px;
-
-}
-.button4{
-    position: absolute;
-    width: 350px;
-    height: 106px;
-    left: 980px;
-    top: 464px;
-
-    font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 40.69%;
-/* or 20px */
-
-
-    background: #FAFF12;
-    border-radius: 100px;
+    border-radius: 5px;
 
 }
 
-#buttonHover:hover{
+.button:hover{
     cursor: pointer;
     color:#FAFF12;
     background: black;
